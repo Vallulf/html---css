@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S+Guides:ital@0;1&display=swap');
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: black;
+}
+h1{
+     font-family: "Playwrite GB S Guides", cursive;
+     font-weight: 400;
+}

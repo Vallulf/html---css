@@ -1,0 +1,84 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+
+body{
+
+    text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right , #287CB0,#9AD7F7,#BABDB9);
+
+}
+header{
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+main{
+    background-color: white;
+    border-radius: 50px;
+}
+main>h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: linear-gradient(to right , #287CB0,#9AD7F7,#BABDB9);
+
+}
+main:hover{
+    background-color: #287CB0;
+}
+
+main>h2:hover{
+    color: rgb(243, 107, 130);
+    
+}
+main > p {
+    padding: auto;
+    
+}
+section{
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    
+}
+.artigo>p{
+    text-align: left;
+}
+.artigo{
+    margin: 10px 10px 10px 10px;
+    padding: 10px auto 10px auto;
+
+
+    
+}
+footer{
+    background-color: rgb(89, 89, 165);
+    border-radius: 15px;
+    color: black;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bolder;
+}
+.out:hover{
+    background-color: aqua;
+    border-radius: 30px;
+}
+.destaque:hover{
+    background-color: violet;
+    border-radius: 30px;
+}
+.amigo{
+    display: flexbox;
+    
+}

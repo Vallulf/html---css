@@ -1,0 +1,35 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+GB+S+Guides:ital@0;1&display=swap');
+
+body{
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: blue;
+
+}
+h1#principal{
+    text-align: center;
+    font-family: "Playwrite GB S Guides", cursive;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+h2{ 
+    color: brown;
+
+}
+.basico{
+    color: green;
+
+}
+.intermediario{
+    color: yellow;
+
+}
+.avançado{
+    color: red;
+
+}
