@@ -1,0 +1,68 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to left, #FB9F6E,#FC5618,#CE3315);
+}
+
+
+header{ 
+    height: 100px;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #FB9F6E,#FC5618,#CE3315);
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+nav{
+   background-color: #CE3315;
+   border-radius: 0px 0px 5px 5px;
+   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.585);
+   margin-bottom: 1px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 0px 2px 0px 2px;
+}
+a:hover{
+    background-color: #e56046;
+    color: black;
+}
+.gold{
+    width: 100%;
+    mask-image: linear-gradient(to left, black 65%, transparent);
+}
+main{
+    padding: 5px;
+    background-color: white;
+    display: flex;
+    border-radius: 0 0 10px 10px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    max-width: 1000px;
+    min-height: 320px;
+    margin: auto;
+    width: auto;
+}
+.artigo1 > h1 {
+    font-family: "Alex Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    text-indent: 5px;
+}
+.artigo1 > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-indent: 10px;
+
+}
