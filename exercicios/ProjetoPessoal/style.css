@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 
 *{
+    
     margin: 0;
     padding: 0;
 }
@@ -53,6 +54,9 @@ main{
     min-height: 320px;
     margin: auto;
     width: auto;
+
+    
+    
 }
 .artigo1 > h1 {
     font-family: "Alex Brush", cursive;
