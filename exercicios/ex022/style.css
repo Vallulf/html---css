@@ -1,0 +1,26 @@
+
+body{
+    height: 100vh;
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+    max-width: 1000px;
+    min-width: 320px;
+
+}
+header{
+    text-align: center;
+    background-color: rgb(247, 26, 26);
+}
+main{
+    background-color: white;
+    max-width: 550px;
+    min-width: 350px;
+}
+
+.paragrafos{
+    text-align: left;
+    font-size: clamp(0.5rem, 5vw, 3rem);
+}
+.titulo{
+
+}
