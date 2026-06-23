@@ -1,4 +1,11 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Niconne&family=Passion+One:wght@400;700;900&display=swap');
+
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2:"Passion One", sans-serif;
+    --fonte3: "Merienda", cursive;
+}
 
 *{
     margin: 0px;
@@ -6,6 +13,7 @@
 }
 
 html, body{
+    font-family: var(--fonte1);
     min-height: 100vh;
     background-color: darkgray;
 }
@@ -18,6 +26,8 @@ header{
 header > h1{
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 10vw;
 }
 header > p {
     padding-bottom: 50px;
@@ -35,6 +45,8 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
 }
 section.normal{
     background-color: white;
@@ -46,7 +58,8 @@ section.imagem{
     color: white;
 }
 section.imagem > p {
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.401);
 }
 footer{
