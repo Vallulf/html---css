@@ -72,7 +72,13 @@ header > p {
     margin: auto;
     margin-bottom: 30px;
 }
-
+section :hover{
+    transform: scale(1.10);
+    width: 500px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: black;
+}
 section > p {
     font-family: "Nunito Sans", sans-serif;
     font-weight: weight;
@@ -90,4 +96,5 @@ footer{
     margin-bottom: 50px;
     padding-top: 20px;
     color: white;
+    font-size: 14px;
 }
