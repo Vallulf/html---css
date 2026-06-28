@@ -80,12 +80,43 @@ header > p {
     margin: auto;
     margin-bottom: 30px;
 }
-section :hover{
+.links:hover{
+      background-image: 
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+        url("fundo/goldssspell.jpg");
+
+
+    background-position: center center;
     transform: scale(1.10);
     width: 100%;
     height: 40px;
     border-radius: 15px;
     background-color: black;
+    box-shadow: 0px 1px 5px 2px rgba(255, 255, 255, 0.452);
+}
+#EUA :hover{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.112), rgba(0, 0, 0, 0.123)),
+    url(fundo/eua.png);
+     background-position: center center;
+    transform: scale(1.10);
+    width: 100%;
+    height: 40px;
+    border-radius: 15px;
+    background-color: black;
+    box-shadow: 0px 1px 5px 2px rgba(255, 255, 255, 0.452);
+}
+#Europe :hover{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.112), rgba(0, 0, 0, 0.123)),
+    url(fundo/europa.png);
+    background-size: cover;
+    background-position: center center;
+    transform: scale(1.10);
+    width: 100%;
+    height: 40px;
+    border-radius: 15px;
+    background-color: black;
+    box-shadow: 0px 1px 5px 2px rgba(255, 255, 255, 0.452);
+
 }
 section > p {
     font-family: "Nunito Sans", sans-serif;
