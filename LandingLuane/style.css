@@ -27,7 +27,7 @@ main{
 
 .imagem{
     margin-top: 400px;    
-    height: 200px;
+    height: 300px;
     width: 200px;
 }
 
@@ -39,10 +39,11 @@ main >header{
         rgba(0,0,0,0) 50%,
         rgba(0,0,0,1) 100%
     ),
-    url(fundo/luaneff.gif);
+    url(fundo/video_distante_android_zoom.gif);
 
     position: relative;
-    background-size: cover;
+    background-size:cover;
+    background-repeat: no-repeat;
     background-position: center;
     color: white;
     padding: 0;
