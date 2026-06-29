@@ -97,7 +97,7 @@ header > p {
 
 
     background-position: center center;
-    transform: scale(1.10);
+    transform: scale(1.01);
     width: 100%;
     height: 40px;
     border-radius: 15px;
@@ -108,7 +108,7 @@ header > p {
     background-image: linear-gradient( rgba(0, 0, 0, 0.112), rgba(0, 0, 0, 0.123)),
     url(fundo/eua.png);
      background-position: center center;
-    transform: scale(1.10);
+    transform: scale(1.01);
     width: 100%;
     height: 40px;
     border-radius: 15px;
@@ -120,7 +120,7 @@ header > p {
     url(fundo/europa.png);
     background-size: cover;
     background-position: center center;
-    transform: scale(1.10);
+    transform: scale(1.01);
     width: 100%;
     height: 40px;
     border-radius: 15px;
