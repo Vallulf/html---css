@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+</head>
+<body> 
+    <h1>Exercicios testando Form</h1>
+
+    <form action="cadastro.php" method="post">
+
+        <fieldset>
+            <legend>Tela de Login</legend>
+            <p>
+                <label for="iname">Nome:</label>
+                <input type="text" name="name" id="iname" required autocomplete="name" maxlength="30">
+            </p>
+            <p>
+                <label for="icpf">CPF</label>
+                <input type="number" name="" id="icpf" placeholder="Digite seu CPF">
+            </p>
+            <p>
+                <label for="isen">Senha:</label>
+                <input type="password" name="sen" id="isen" required>
+            </p>
+            <p>
+                <input type="submit" value="Login">
+                <input type="reset" value="Limpar">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Testando Radio</legend>
+            <p>
+                <label for="basqu">Basquete</label>
+                <input type="radio" name="jogo" id="basqu">
+            </p>
+            <p>
+                <label for="fut">Futebol</label>
+                <input type="radio" name="jogo" id="ifut">
+            
+            </p>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
