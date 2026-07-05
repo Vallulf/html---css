@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela do Login</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        
+        }
+        header{
+            background-image: linear-gradient(to right, rgb(40, 40, 252), rgb(86, 86, 253), rgb(135, 135, 251));
+            color: white;
+            padding: 20px;
+            font-size: 20px;
+            text-indent: 20px;
+        }
+        h1{
+            font-size: 50px;
+            font-weight: bolder;
+        }
+        body,html{
+    
+            background:url(foto.jpg) center no-repeat;
+            background-size: cover;
+            min-height: 100vh;
+            
+        }
+        form{
+            position: absolute;
+            left: 1000px;
+            margin-top: 50px;
+            font-size: 20px;
+            
+            
+        }
+        legend{
+            background-color: rgba(255, 255, 255, 0.523);
+        }
+        fieldset{
+            padding:50px;
+            background-color: rgba(255, 255, 255, 0.474);
+            height: 300px;
+            width: 350px;
+            display: block;
+            align-items: right;    
+        }
+        p{
+            padding: 10px;
+        }
+        
+                
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Facebook</h1>
+        <p>Se conecte conosco</p>
+    </header>
+    <form action="cadastro.php" method="post">
+        <fieldset>
+            <legend>Tela do Login</legend>
+            <p>
+                <label for="inome">Nome Completo:</label>
+                <input type="text" name="nome" id="inome" required maxlength="30" minlength="10" autocomplete="name">
+            </p>
+            <p>
+                <label for="iemail">E-Mail</label>
+                <input type="email" name="email" id="iemail" required maxlength="30">
+            </p>
+            <p>
+                <label for="Isen">Senha:</label>
+                <input type="password" name="sen" id="isen" placeholder="Digite a Senha" required autocomplete="current-password">
+            </p>
+            <p>
+                <input type="submit" value="Login">
+                <input type="reset" value="Reset">
+            </p>
+        </fieldset>
+
+    </form>
+    
+</body>
+</html>
