@@ -20,14 +20,18 @@
                 <form action="login.php" method="post" autocomplete="on">
                     <div class="campo">
                         <i class="material-icons">person</i>
-                        <input type="email" name="log" id="ilogin" autocomplete="email" required placeholder="Seu Email">
+                        <input type="email" name="log" id="ilogin" autocomplete="email" required placeholder="Seu Email" maxlength="30">
                         <label for="ilogin">Login</label>
                     </div>
                     <div class="campo">
                         <i class="material-icons">vpn_key</i>
-                        <input type="password" name="sen" id="isen" required autocomplete="current-password" placeholder="Sua Senha ">
+                        <input type="password" name="sen" id="isen" required autocomplete="current-password" placeholder="Sua Senha " minlength="8" maxlength="20">
                         <label for="isen">Senha</label>
                     </div>
+                    <input type="submit" value="Login">
+                    <a href="esqueci.html" class="botao">Esqueci a Senha
+                    <i class="material-icons">mail</i>
+                    </a>
 
                 </form>
 
